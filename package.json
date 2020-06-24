@@ -1,0 +1,9 @@
+{
+  "private": "true",
+  "scripts": {
+    "demo": "yarn workspace scratch-demo run start"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

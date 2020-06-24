@@ -1,0 +1,25 @@
+{
+  "name": "skratch",
+  "version": "1.0.0",
+  "description": "Small reactive ui framework from WebSyncs",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websyncs/scratch.git"
+  },
+  "author": "Dipendu Das",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/websyncs/scratch/issues"
+  },
+  "homepage": "https://github.com/websyncs/scratch#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "htm": "^3.0.4",
+    "s-js": "^0.4.9"
+  }
+}
