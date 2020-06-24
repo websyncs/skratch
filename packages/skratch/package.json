@@ -5,15 +5,15 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/websyncs/scratch.git"
+    "url": "git+https://github.com/websyncs/skratch.git"
   },
   "author": "Dipendu Das",
   "license": "MIT",
   "private": false,
   "bugs": {
-    "url": "https://github.com/websyncs/scratch/issues"
+    "url": "https://github.com/websyncs/skratch/issues"
   },
-  "homepage": "https://github.com/websyncs/scratch#readme",
+  "homepage": "https://github.com/websyncs/skratch#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
