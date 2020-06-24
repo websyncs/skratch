@@ -1,4 +1,4 @@
-# Skratch [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/websyncs/skratch/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/skratch.svg?style=flat)](https://www.npmjs.com/package/skratch) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://websyncs.com/docs/how-to-contribute.html#your-first-pull-request)
+# # Skratch [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/websyncs/skratch/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/skratch.svg?style=flat)](https://www.npmjs.com/package/skratch) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://websyncs.com/docs/how-to-contribute.html#your-first-pull-request)
 
 A very light weight reactive ui framework build from scratch. Inspired by [Sinuous](https://github.com/luwes/sinuous)
 
