@@ -16,6 +16,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "skratch": "^1.0.0"
+    "skratch": "^1.0.1"
   }
 }
