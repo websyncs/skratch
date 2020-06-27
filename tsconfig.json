@@ -9,7 +9,8 @@
     "forceConsistentCasingInFileNames": true
   },
   "include": [
-    "**/*.ts"
+    "**/*.ts",
+    "packages/skratch-test/src/index.js"
   ],
   "exclude": [
     "node_modules",
