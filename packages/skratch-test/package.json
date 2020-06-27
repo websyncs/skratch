@@ -9,6 +9,6 @@
     "start": "webpack-dev-server --hot"
   },
   "dependencies": {
-    "skratch": "^1.0.1"
+    "skratch": "^1.1.0"
   }
 }

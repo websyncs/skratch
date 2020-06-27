@@ -1,9 +1,10 @@
 {
   "name": "skratch",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Small reactive ui framework from WebSyncs",
-  "main": "./dist/index.js",
-  "types": "./dist/main.d.ts",
+  "main": "lib/index.js",
+  "module": "lib-esm/index.js",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/websyncs/skratch.git"
@@ -14,12 +15,18 @@
   "bugs": {
     "url": "https://github.com/websyncs/skratch/issues"
   },
-  "homepage": "https://github.com/websyncs/skratch#readme",
+  "homepage": "https://skratch.js.org",
   "scripts": {
     "clean": "shx rm -rf _bundles lib lib-esm",
     "build": "npm run clean && tsc && tsc -m es6 --outDir lib-esm && webpack"
   },
-  "keywords": [],
+  "keywords": [
+    "reactive",
+    "javascript",
+    "ui",
+    "frontend",
+    "cross platform"
+  ],
   "dependencies": {
     "htm": "^3.0.4",
     "s-js": "^0.4.9"
