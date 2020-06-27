@@ -20,7 +20,7 @@ api.h = context({
   insert,
   remove,
   property,
-});
+}, false);
 api.hs = context(
   {
     subscribe,
