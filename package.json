@@ -1,9 +1,14 @@
 {
   "private": "true",
+  "homepage": "https://skratch.js.org",
   "scripts": {
+    "deploy-site": "gh-pages -d docs",
     "demo": "yarn workspace scratch-demo run start"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
