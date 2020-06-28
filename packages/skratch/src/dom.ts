@@ -1,4 +1,5 @@
 import { api } from './api';
+const EMPTY_ARR: Array<any> = [];
 
 export function create(arg, isSvg) {
   return arg
@@ -21,10 +22,10 @@ export function insert(el, value, endMark, current, startNode) {
   // is not always accurate if content gets pulled before clearing.
   startNode = startNode || (current instanceof Node && current);
 
-  if (value === current);
+  if (value === current) { return }
   else if (
     (!current || typeof current === 'string') &&
-    (typeof value === 'string' || (typeof value === 'number' && (value += '')))
+    (typeof value === 'string' || (typeof value === 'number' && (value)))
   ) {
     // Block optimized for string insertion.
     if (current == null || !el.firstChild) {
@@ -158,7 +159,7 @@ function handleEvent(el, name, value) {
 
   (el._listeners || (el._listeners = {}))[name] = value;
 }
-function eventProxy(e) {
+function eventProxy(this: any, e) {
   // eslint-disable-next-line
   return this._listeners[e.type](e);
 }

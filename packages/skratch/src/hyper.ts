@@ -7,7 +7,7 @@ export const context = (options, isSvg) => {
     let el;
 
     function buildEl(arg) {
-      if (arg == null);
+      if (arg == null) { return; }
       else if (typeof arg === 'string') {
         if (api.els[arg]) {
           buildEl(api.els[arg]);

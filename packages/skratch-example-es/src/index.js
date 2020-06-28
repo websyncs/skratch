@@ -1,4 +1,4 @@
-import { o, html } from 'skratch';
+import { o, html } from "skratch";
 import './component';
 
 const count = o(1);
