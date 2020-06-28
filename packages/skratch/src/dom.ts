@@ -1,5 +1,5 @@
 import { api } from './api';
-const EMPTY_ARR = [];
+const EMPTY_ARR: Array<any> = [];
 
 export function create(arg, isSvg) {
   return arg

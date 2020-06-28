@@ -1,5 +1,6 @@
 {
-  "name": "skratch-test",
+  "name": "skratch-example-ts",
+  "private": true,
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",

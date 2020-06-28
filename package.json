@@ -3,8 +3,9 @@
   "homepage": "https://skratch.js.org",
   "scripts": {
     "build:skratch": "yarn workspace skratch run build",
-    "deploy-site": "gh-pages -d docs",
-    "demo": "yarn workspace skratch-test run start"
+    "test:es": "yarn workspace skratch-example-es run start",
+    "test:ts": "yarn workspace skratch-example-ts run start",
+    "deploy-site": "gh-pages -d docs"
   },
   "workspaces": [
     "packages/*"

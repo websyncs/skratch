@@ -1,0 +1,15 @@
+{
+  "name": "skratch-example-es",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "description": "Browser demo testing skratch",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --hot"
+  },
+  "dependencies": {
+    "skratch": "^1.1.0"
+  }
+}
