@@ -17,6 +17,7 @@
   },
   "homepage": "https://skratch.js.org",
   "scripts": {
+    "test": "jest",
     "clean": "shx rm -rf _bundles lib lib-esm",
     "build": "npm run clean && tsc && tsc -m es6 --outDir lib-esm && webpack"
   },
