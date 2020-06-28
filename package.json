@@ -4,7 +4,7 @@
   "scripts": {
     "build": "yarn workspace skratch run build",
     "test": "yarn workspace skratch run test",
-    "publish": "lerna publish from-package -y --no-verify-access",
+    "release": "lerna publish from-package -y --no-verify-access",
     "test:es": "yarn workspace skratch-example-es run start",
     "test:ts": "yarn workspace skratch-example-ts run start",
     "deploy-site": "gh-pages -d docs"
