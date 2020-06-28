@@ -25,9 +25,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-
       - run: yarn
-
       - name: Create Release Pull Request
         uses: changesets/action@master
         env:
