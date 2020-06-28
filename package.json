@@ -2,7 +2,7 @@
   "private": "true",
   "homepage": "https://skratch.js.org",
   "scripts": {
-    "build:skratch": "yarn workspace skratch run build",
+    "build": "yarn workspace skratch run build",
     "test": "yarn workspace skratch run test",
     "test:es": "yarn workspace skratch-example-es run start",
     "test:ts": "yarn workspace skratch-example-ts run start",
