@@ -1,17 +1,10 @@
-export interface Api {
-  els: any;
-  add?: any;
-  create?: any;
-  property?: any;
-  insert?: any;
-  subscribe?: any;
-  h?: any;
-  hs?: any;
-  cleanup?: any;
-  root?: any;
-  sample?: any;
-  remove?: any;
+/**
+ * Not using class as this need to be single tone
+ */
+export interface Ioc {
+  els: {
+    [key: string]: Function;
+  };
+  [key: string]: any;
 }
-export const api: Api = {
-  els: {},
-};
+export const api: Ioc = { els: {} }
