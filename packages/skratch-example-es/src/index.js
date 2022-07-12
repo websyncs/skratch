@@ -1,5 +1,6 @@
-import { o, html } from "skratch";
+import { context, o, html } from "skratch";
 import './component';
+import { TodoApp } from './todo';
 
 const count = o(1);
 const App = () => html`
@@ -15,4 +16,6 @@ setInterval(() => {
   count(count() + 1);
 }, 1000);
 
+
 document.body.appendChild(App());
+document.body.appendChild(TodoApp());
