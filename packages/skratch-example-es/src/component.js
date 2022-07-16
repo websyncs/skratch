@@ -1,7 +1,8 @@
 import { html, define } from 'skratch';
 
 export const Comp = (props, children) => {
-  return html`<div style="background:#555">
+  console.log('Test is rendered', props)
+  return html`<div ref=${props.ref} style="background:#555">
     ${() =>
       props.name() % 2 == 0
         ? html`<h1 id="hello">Even</h1>`

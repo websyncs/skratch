@@ -84,6 +84,9 @@ export function property(el, value, name, isAttr, isCss) {
     for (name in value) {
       api.property(el, value[name], name, isAttr, isCss);
     }
+  } else if (name === 'ref') {
+    // refs are just a callback to get the element as there are no rerender of components
+    value(el);
   } else if (name[0] === 'o' && name[1] === 'n' && !value.$o) {
     // Functions added as event handlers are not executed
     // on render unless they have an observable indicator.
