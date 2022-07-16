@@ -31,5 +31,6 @@
   "dependencies": {
     "htm": "^3.0.4",
     "s-js": "^0.4.9"
-  }
+  },
+  "gitHead": "528bfa55f5d5ebf41dead408e4192a8f1f06e384"
 }
