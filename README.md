@@ -75,6 +75,23 @@ const App = () => html`
 `;
 ```
 
+Example of new html reference
+
+```js
+export const Example = () => {
+  let inputRef;
+  function focus(e) {
+    inputRef.focus();
+  }
+  return html`
+    <div>
+      <input ref=${(el) => inputRef = el} id="new-todo"/>
+      <button onclick=${focus}>Focus</button>
+    </div>
+  `;
+};
+```
+
 ### License
 
 React is [MIT licensed](./LICENSE).
