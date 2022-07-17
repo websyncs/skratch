@@ -1,5 +1,5 @@
 {
-  "name": "@dipendu/skratch",
+  "name": "skratch",
   "version": "1.3.0",
   "private": false,
   "description": "Small reactive ui framework from WebSyncs",
