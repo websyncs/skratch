@@ -22,7 +22,7 @@ export function insert(el, value, endMark, current, startNode) {
   // is not always accurate if content gets pulled before clearing.
   startNode = startNode || (current instanceof Node && current);
 
-  if (value === current) { return }
+  if (value === current) { return current}
   else if (
     (!current || typeof current === 'string') &&
     (typeof value === 'string' || (typeof value === 'number' && (value)))
@@ -44,7 +44,7 @@ export function insert(el, value, endMark, current, startNode) {
     }
     current = value;
   } else if (typeof value === 'function') {
-    api.subscribe(function insertContent() {
+    api.subscribe(() => {
       current = api.insert(
         el,
         value.call({ el, endMark }),

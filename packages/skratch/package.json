@@ -1,6 +1,6 @@
 {
   "name": "skratch",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "private": false,
   "description": "Small reactive ui framework from WebSyncs",
   "main": "lib/index.js",
